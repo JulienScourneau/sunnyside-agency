@@ -1,16 +1,41 @@
-
-body{
+body {
+    margin: 0;
     background-color: gray;
-    font-family:'Fraunces', sans-serif;
+    font-family: 'Fraunces', sans-serif;
 }
 
-h1{
-    font-style: normal;
-font-weight: 900;
-font-size: 56px;
-line-height: 69px;
-text-align: center;
-letter-spacing: 8.75px;
-text-transform: uppercase;
-color: #FFFFFF;
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(/assets/photos/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    nav {
+        display: flex;
+    }
+    
+}
+
+.title {
+    Width: 1440px;
+    Height: 800px;
+    h1 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 69px;
+        text-align: center;
+        letter-spacing: 8.75px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        margin-top: 10%;
+    }
 }

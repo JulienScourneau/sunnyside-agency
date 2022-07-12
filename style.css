@@ -1,9 +1,26 @@
 body {
+  margin: 0;
   background-color: gray;
   font-family: "Fraunces", sans-serif;
 }
 
-h1 {
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(/assets/photos/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header nav {
+  display: flex;
+}
+
+.title {
+  Width: 1440px;
+  Height: 800px;
+}
+.title h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 56px;
@@ -12,4 +29,11 @@ h1 {
   letter-spacing: 8.75px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.title img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  margin-top: 10%;
 }/*# sourceMappingURL=style.css.map */
