@@ -108,7 +108,8 @@ header {
     .presentation__box1 {
         display: flex;
         flex: 1;
-        article{
+
+        article {
             margin: 5%;
         }
     }
@@ -116,7 +117,8 @@ header {
     .presentation__box2 {
         display: flex;
         flex: 1;
-        article{
+
+        article {
             margin: 5%;
         }
     }
@@ -131,7 +133,7 @@ header {
         p {
             color: #3E7467;
             text-align: center;
-         }
+        }
 
         .presentation__box3__graphic {
             aspect-ratio: 1 / 1;
@@ -199,7 +201,7 @@ header {
 
         a {
             font-family: $fraunces;
-            
+
         }
 
     }
@@ -217,3 +219,37 @@ header {
     }
 }
 
+.testimonials {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+        font-family: Fraunces 9pt Soft;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 25px;
+        letter-spacing: 5px;
+        text-align: center;
+        color: #A7AAAD;
+        top: calc(50% - 25px/2 - 216px);
+
+    }
+
+    .testimonials__client {
+        img {
+            height: 72px;
+            width: 72px;
+            left: 899px;
+            top: 106px;
+            border-radius: 0px;
+            border-radius: 50%;
+        }
+
+        
+
+        display: flex;
+        text-align: center;
+    }
+}

@@ -184,4 +184,33 @@ header .header__title img {
   -o-object-fit: cover;
      object-fit: cover;
   flex: 1;
+}
+
+.testimonials {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials h4 {
+  font-family: Fraunces 9pt Soft;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #A7AAAD;
+  top: calc(50% - 12.5px - 216px);
+}
+.testimonials .testimonials__client {
+  display: flex;
+  text-align: center;
+}
+.testimonials .testimonials__client img {
+  height: 72px;
+  width: 72px;
+  left: 899px;
+  top: 106px;
+  border-radius: 0px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
