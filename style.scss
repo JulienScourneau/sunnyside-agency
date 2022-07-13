@@ -116,9 +116,16 @@ header {
     .presentation__box3 {
         display: flex;
 
+        .presentation__box3__graphic {
+            background-image: url(assets/photos/image-graphic-design.jpg);
+        }
+
+        .presentation__box3__photography {
+            background-image: url(assets/photos/image-photography.jpg);
+        }
     }
 
-    .presentation__box1__text{
+    .presentation__box__text {
         width: 70%;
     }
 
@@ -148,8 +155,12 @@ header {
 
     }
 
+    figure {
+        width: 50%;
+    }
+
     img {
-        
+        flex-shrink: 0;
         width: 100%;
         height: 100%;
         object-fit: cover;
