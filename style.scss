@@ -308,3 +308,43 @@ header {
         width: 25%;
     }
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2C7566;
+    background-color: #90D4C6;
+
+    img {
+        margin-top: 72px;
+        filter: brightness(0) invert(39%) sepia(67%) saturate(323%) hue-rotate(118deg) brightness(90%) contrast(90%);
+    }
+
+    nav{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        .footer__nav__middle{
+            margin-left: 57px;
+            margin-right: 57px;
+        }
+        a:link {
+            text-decoration: none;
+            color: #2C7566;
+        }
+    
+        a:visited {
+            text-decoration: none;
+            color: #2C7566;
+        }
+    
+        a:hover {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+
+    
+}
