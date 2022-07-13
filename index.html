@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap" rel="stylesheet">
     <title>Sunny Side</title>
 </head>
@@ -10,39 +11,56 @@
 <body>
     <main>
         <header>
-            <img class="header__logo" src="/assets/logo.svg" alt="">
-            <nav>
-                <p>About</p>
-                <p>Service</p>
-                <p>Projects</p>
-                <button>contact</button>
-            </nav>
-            <section class="title">
+            <section class="header__top">
+                <img class="header__logo" src="/assets/logo.svg" alt="">
+                <nav>
+                    <p>About</p>
+                    <p>Service</p>
+                    <p>Projects</p>
+                    <button>contact</button>
+                </nav>
+            </section>
+            <section class="header__title">
                 <h1>we are creatives</h1>
-                <img src="/assets/icons/icon-arrow-down.svg">
+                <img class="header__arrow" src="/assets/icons/icon-arrow-down.svg">
             </section>
         </header>
-        <section>
-            <article>
-                <h2> Transform your brand</h2>
-                <p> We are full service</p>
-                <a>Learn more</a>
-            </article>
-            <img src="oeuf">
-            <img src="verre">
-            <article>
-                <h2>Stand out to the audience</h2>
-                <p> Using a collaborative formula</p>
-                <a>Learn more</a>
-            </article>
-            <article>
-                <h3>Graphic Design</h3>
-                <p>Great design</p>
-            </article>
-            <article>
-                <h3>Photography</h3>
-                <p>increase your credibility by</p>
-            </article>
+        <section class="presentation">
+            <div class="presentation__box1">
+                <article>
+                    <div class="presentation__box1__text">
+                        <h2> Transform your brand</h2>
+                        <p>
+                            We are a full-service creative agency specializing in helping brands grow fast.
+                            Engage your clients through compelling visuals that do most of the marketing for you.
+                        </p>
+                        <a>Learn more</a>
+                    </div>
+                </article>
+                <img src="assets/photos/image-transform.jpg">
+            </div>
+            <div class="presentation__box2">
+                <img src="assets/photos/image-stand-out.jpg">
+                <article>
+                    <h2>Stand out to the audience</h2>
+                    <p>
+                        Using a collaborative formula of designers, researchers, photographers, videographers, and
+                        copywriters,
+                        we’ll build and extend your brand in digital places
+                    </p>
+                    <a>Learn more</a>
+                </article>
+            </div>
+            <div class="presentation__box3">
+                <article>
+                    <h3>Graphic Design</h3>
+                    <p>Great design</p>
+                </article>
+                <article>
+                    <h3>Photography</h3>
+                    <p>increase your credibility by</p>
+                </article>
+            </div>
         </section>
         <section>
             <h4>Clients Testimonials</h4>
