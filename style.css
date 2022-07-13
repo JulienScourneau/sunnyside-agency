@@ -82,31 +82,65 @@ header .header__title img {
 }
 
 .presentation {
+  box-sizing: border-box;
   position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: baseline;
   background-color: #FFFFFF;
 }
 .presentation .presentation__box1 {
   display: flex;
+  flex: 1;
+}
+.presentation .presentation__box1 article {
+  margin: 5%;
 }
 .presentation .presentation__box2 {
   display: flex;
+  flex: 1;
+}
+.presentation .presentation__box2 article {
+  margin: 5%;
 }
 .presentation .presentation__box3 {
+  background-color: rebeccapurple;
+  width: 100%;
+  height: auto;
   display: flex;
+  flex: 1;
+}
+.presentation .presentation__box3 p {
+  color: #3E7467;
+  text-align: center;
 }
 .presentation .presentation__box3 .presentation__box3__graphic {
+  aspect-ratio: 1/1;
+  flex: 1;
   background-image: url(assets/photos/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .presentation .presentation__box3 .presentation__box3__photography {
+  aspect-ratio: 1/1;
+  flex: 1;
+  width: 100%;
   background-image: url(assets/photos/image-photography.jpg);
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .presentation .presentation__box__text {
   width: 70%;
 }
 .presentation article {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,6 +148,7 @@ header .header__title img {
   flex: 1;
 }
 .presentation article h2 {
+  color: #24303E;
   padding-bottom: 5%;
   font-family: "Fraunces", sans-serif;
   font-size: 40px;
@@ -122,10 +157,22 @@ header .header__title img {
   letter-spacing: -0.29px;
   margin-bottom: 16px;
 }
+.presentation article h3 {
+  color: #24554A;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 34.52px;
+  letter-spacing: -0.2px;
+}
 .presentation article p {
+  font-family: "Barlow", sans-serif;
+  color: #808397;
   padding-bottom: 5%;
-  width: 50%;
+  width: 70%;
   text-align: left;
+}
+.presentation article a {
+  font-family: "Fraunces", sans-serif;
 }
 .presentation figure {
   width: 50%;
