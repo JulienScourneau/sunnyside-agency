@@ -296,4 +296,13 @@ footer nav a:visited {
 footer nav a:hover {
   text-decoration: none;
   color: #FFFFFF;
+}
+footer .footer__icon {
+  margin-top: 88px;
+  margin-bottom: 72px;
+}
+footer .footer__icon img {
+  margin: 0;
+  margin-left: 14px;
+  margin-right: 14px;
 }/*# sourceMappingURL=style.css.map */
