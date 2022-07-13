@@ -7,12 +7,9 @@
 body {
   margin: 0;
   background-color: gray;
-  font-family: "Fraunces", sans-serif;
 }
 
 header {
-  height: 80vh;
-  min-height: 600px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -22,10 +19,12 @@ header {
 }
 header .header__top {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 header .header__top .header__logo {
-  padding: 2%;
+  margin-top: 46px;
+  margin-left: 40px;
 }
 header .header__top nav {
   display: flex;
@@ -34,9 +33,12 @@ header .header__top nav {
   align-items: center;
   justify-content: space-around;
   width: 30%;
-  margin-right: 5%;
+  margin-top: 46px;
+  margin-right: 40px;
 }
 header .header__top nav p {
+  margin-left: 24px;
+  margin-right: 24px;
   font-family: "Barlow", sans-serif;
   font-size: 18px;
   line-height: 25px;
@@ -44,6 +46,8 @@ header .header__top nav p {
   letter-spacing: -0.13 px;
 }
 header .header__top nav button {
+  margin-left: 24px;
+  margin-right: 48px;
   width: 140px;
   height: 56px;
   left: 0%;
@@ -56,10 +60,14 @@ header .header__top nav button {
   font-weight: 700;
   font-size: 15px;
   line-height: 25px;
-  letter-spacing: -0.107143px;
+  letter-spacing: -0.1px;
   text-transform: uppercase;
   color: #24303E;
   border: none;
+}
+header .header__top nav button:hover {
+  color: #FFFFFF;
+  background-color: #78cef5;
 }
 header .header__title {
   display: flex;
@@ -68,6 +76,8 @@ header .header__title {
   justify-content: center;
 }
 header .header__title h1 {
+  margin-top: 195px;
+  margin-bottom: 96px;
   font-style: normal;
   font-weight: 900;
   font-size: 70px;
@@ -78,7 +88,7 @@ header .header__title h1 {
   color: #FFFFFF;
 }
 header .header__title img {
-  margin-top: 10%;
+  margin-bottom: 330px;
 }
 
 .presentation {
