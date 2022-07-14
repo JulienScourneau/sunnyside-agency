@@ -9,6 +9,7 @@ $fraunces: 'Fraunces', sans-serif;
 }
 
 body {
+    box-sizing: border-box;
     margin: 0;
     background-color: gray;
 }
@@ -33,13 +34,12 @@ header {
         }
 
         nav {
-            
+
             display: flex;
             font-size: 20px;
             color: white;
             align-items: center;
             justify-content: space-around;
-            width: 30%;
             margin-top: 46px;
             margin-right: 40px;
 
@@ -58,10 +58,6 @@ header {
                 margin-right: 48px;
                 width: 140px;
                 height: 56px;
-                left: 0%;
-                right: 0%;
-                top: 0%;
-                bottom: 0%;
                 background: #FFFFFF;
                 border-radius: 28px;
                 font-style: normal;
@@ -74,7 +70,7 @@ header {
                 border: none;
             }
 
-            button:hover{
+            button:hover {
                 color: #FFFFFF;
                 background-color: #78cef5;
             }
@@ -109,16 +105,14 @@ header {
 
 .presentation {
     box-sizing: border-box;
-    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
     background-color: #FFFFFF;
 
     .presentation__box1 {
         display: flex;
-        flex: 1;
+        height: 600px;
 
         article {
             margin: 5%;
@@ -127,7 +121,7 @@ header {
 
     .presentation__box2 {
         display: flex;
-        flex: 1;
+        height: 600px;
 
         article {
             margin: 5%;
@@ -135,35 +129,32 @@ header {
     }
 
     .presentation__box3 {
+        height: 600px;
         background-color: rebeccapurple;
-        width: 100%;
-        height: auto;
         display: flex;
         flex: 1;
-
         p {
             color: #3E7467;
             text-align: center;
         }
 
         .presentation__box3__graphic {
-            aspect-ratio: 1 / 1;
-            flex: 1;
+            height: 600px;
             background-image: url(assets/photos/image-graphic-design.jpg);
             background-size: cover;
-            background-position: center top;
+            background-repeat: no-repeat;
+            background-position: center;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
         }
 
         .presentation__box3__photography {
-            aspect-ratio: 1 / 1;
-            flex: 1;
-            width: 100%;
+            height: 600px;
             background-image: url(assets/photos/image-photography.jpg);
             background-size: cover;
-            background-position: center top;
+            background-repeat: no-repeat;
+            background-position: center;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -171,7 +162,7 @@ header {
     }
 
     .presentation__box__text {
-        width: 70%;
+        width: 50%;
     }
 
     article {
@@ -237,8 +228,6 @@ header {
     align-items: center;
 
     h4 {
-        height: 25px;
-        width: 348px;
 
         font-family: $fraunces;
         font-size: 20px;
@@ -368,4 +357,8 @@ footer {
             margin-right: 14px;
         }
     }
+}
+
+@media screen {
+    
 }
