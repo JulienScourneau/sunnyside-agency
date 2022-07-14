@@ -3,6 +3,58 @@
 $barlow: 'Barlow', sans-serif;
 $fraunces: 'Fraunces', sans-serif;
 
+@media only screen and (max-width: 480px) {
+    header{
+        .header__nav {
+            display: none !important;
+
+        }
+        h1{
+            font-size: 40px !important;
+
+        }
+        
+    }
+
+    .presentation{
+        width: 100%;
+        .presentation__box1{
+            flex-direction: column;
+            article{
+                height: 312px;
+            }
+            figure{
+                width: 100%;
+                order: -1;
+                img{
+                 
+                height: 312px;
+                }
+            }
+        }
+        .presentation__box2{
+            flex-direction: column;
+            figure{
+                width: 100%;
+                order: -1;
+                img{
+                 
+                height:312px;
+                }
+            }
+        }
+        .presentation__box3{
+            
+            flex-direction: column;
+            article{
+                
+                height: 600px;
+            }
+        }
+    }
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +62,10 @@ $fraunces: 'Fraunces', sans-serif;
 
 body {
     box-sizing: border-box;
-    margin: 0;
     background-color: gray;
 }
 
 header {
-
     position: relative;
     display: flex;
     flex-direction: column;
@@ -34,7 +84,6 @@ header {
         }
 
         nav {
-
             display: flex;
             font-size: 20px;
             color: white;
@@ -42,6 +91,8 @@ header {
             justify-content: space-around;
             margin-top: 46px;
             margin-right: 40px;
+            overflow: hidden;
+            text-overflow: ellipsis;
 
             p {
                 margin-left: 24px;
@@ -133,6 +184,7 @@ header {
         background-color: rebeccapurple;
         display: flex;
         flex: 1;
+
         p {
             color: #3E7467;
             text-align: center;
@@ -357,8 +409,4 @@ footer {
             margin-right: 14px;
         }
     }
-}
-
-@media screen {
-    
 }

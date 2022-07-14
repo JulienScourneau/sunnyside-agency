@@ -1,4 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@media only screen and (max-width: 480px) {
+  header .header__nav {
+    display: none !important;
+  }
+  header h1 {
+    font-size: 40px !important;
+  }
+  .presentation {
+    width: 100%;
+  }
+  .presentation .presentation__box1 {
+    flex-direction: column;
+  }
+  .presentation .presentation__box1 article {
+    height: 312px;
+  }
+  .presentation .presentation__box1 figure {
+    width: 100%;
+    order: -1;
+  }
+  .presentation .presentation__box1 figure img {
+    height: 312px;
+  }
+  .presentation .presentation__box2 {
+    flex-direction: column;
+  }
+  .presentation .presentation__box2 figure {
+    width: 100%;
+    order: -1;
+  }
+  .presentation .presentation__box2 figure img {
+    height: 312px;
+  }
+  .presentation .presentation__box3 {
+    flex-direction: column;
+  }
+  .presentation .presentation__box3 article {
+    height: 600px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +46,6 @@
 
 body {
   box-sizing: border-box;
-  margin: 0;
   background-color: gray;
 }
 
@@ -35,6 +74,8 @@ header .header__top nav {
   justify-content: space-around;
   margin-top: 46px;
   margin-right: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 header .header__top nav p {
   margin-left: 24px;
